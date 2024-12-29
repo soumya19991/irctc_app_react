@@ -1,0 +1,65 @@
+/* Navbar.css */
+
+.main-nav {
+    background-color: #003366; /* Dark blue, similar to IRCTC */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-nav h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    /* font-family: Arial, sans-serif; */
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav ul li {
+    display: inline;
+  }
+  
+  .main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .main-nav ul li a:hover {
+    background-color: #005b99; /* Lighter blue for hover effect */
+  }
+  
+  .main-nav ul li a:active {
+    background-color: #00284d; /* Darker blue for active state */
+  }
+  
+  @media (max-width: 768px) {
+    .main-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .main-nav ul {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .main-nav ul li a {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
