@@ -14,7 +14,7 @@ const HomePage = () => {
             <input
               type="text"
               id="from"
-              placeholder="Enter your start journy station"
+              placeholder="Enter your start journy  from station"
               required
             />
           </div>
